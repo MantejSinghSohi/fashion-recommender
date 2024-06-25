@@ -49,8 +49,6 @@ def recommend(features,feature_list):
 
     return indices
 
-# steps
-# file upload -> save
 uploaded_file = st.file_uploader("Choose an image")
 if uploaded_file is not None:
     if save_uploaded_file(uploaded_file):
